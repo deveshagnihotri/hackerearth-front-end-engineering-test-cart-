@@ -1,0 +1,78 @@
+.lp-container-parent {
+  margin: 5%;
+  display: flex;
+  justify-content: center;
+}
+@media only screen and (max-width: 991px) {
+  .lp-container-parent {
+    margin-bottom: 10%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.lp-table-main {
+  width: 100vw;
+  height: 100vw;
+  margin: 20px;
+}
+
+.lp-table-main > h2 {
+  font-weight: 200;
+  padding: 20px 20px 0px 20px;
+  color: rgb(66, 66, 66);
+}
+.lp-table-main > h2 > span {
+  font-weight: 300;
+  padding: 10px;
+  color: rgb(66, 66, 66);
+}
+@media only screen and (max-width: 991px) {
+  .lp-table-main > h2 {
+    font-weight: 200;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+    color: rgb(66, 66, 66);
+  }
+}
+
+.lp-table-container {
+  display: flex;
+  flex-direction: row;
+}
+@media only screen and (max-width: 991px) {
+  .lp-table-container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.lp-table-block1 {
+  display: flex;
+  width: 70%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 991px) {
+  .lp-table-block1 {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.lp-table-block2 {
+  display: flex;
+  width: 30%;
+}
+
+@media only screen and (max-width: 991px) {
+  .lp-table-block2 {
+    display: flex;
+    /* padding: 20px; */
+    width: 100%;
+    margin-top: 10px;
+  }
+}
